@@ -1,0 +1,16 @@
+.not-found-wrapper {
+	display: flex;
+	flex-direction: column;
+	max-width: 50%;
+	margin: 0 auto;
+}
+.error {
+	margin: 0 auto;
+}
+.code {
+	color: red;
+	margin: 0 auto;
+}
+.text {
+	margin: 0 auto;
+}
