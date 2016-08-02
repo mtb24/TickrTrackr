@@ -14,6 +14,12 @@
   color: white;
 }
 
+.App-main-window {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 .App-intro {
   font-size: large;
 }
@@ -23,6 +29,6 @@
   to { transform: rotate(360deg); }
 }
 
-.react-name {
+.App-name {
   color: lightblue;
 }
