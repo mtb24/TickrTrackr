@@ -13,9 +13,10 @@ class App extends React.Component {
           <h2><span className="App-name">TickrTrackr</span></h2>
         </div>
         <div className="App-main-window">
+          <DataWidget title="Heart Rate" data={146} type="bpm" featured={true}/>
           <DataWidget title="Speed" data="25" type="mph"/>
           <DataWidget title="Cadence" data="82" type="rpm"/>
-          <DataWidget title="Heart Rate" data="135" type="bpm"/>
+          <DataWidget title="Time" data="45:26" type=""/>
           <DataWidget title="Distance" data="45.75" type="miles"/>
         </div>
 

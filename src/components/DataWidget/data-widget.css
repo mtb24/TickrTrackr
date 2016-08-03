@@ -21,3 +21,9 @@
 .data-widget-data-type {
 	font-size: 0.9rem;
 }
+
+.featured-window {
+	width: 100%;
+	min-width: 100%;
+	min-height: 50px;
+}

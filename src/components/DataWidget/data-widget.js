@@ -5,7 +5,7 @@ import './data-widget.css';
 class DataWidget extends React.Component {
 	render() {
 		return (
-			<div className="data-widget">
+			<div className={this.props.featured? 'data-widget featured-window' :'data-widget'}>
                <header className="data-widget-header">{this.props.title}  <span className="data-widget-data-type">({this.props.type})</span></header>
                <div className="data-widget-body">
                    {this.props.data}
