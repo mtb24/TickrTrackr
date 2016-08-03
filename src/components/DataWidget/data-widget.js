@@ -2,7 +2,7 @@ import React from 'react';
 import './data-widget.css';
 
 /* Base class for data widgets */
-var DataWidget = React.createClass({
+class DataWidget extends React.Component {
 	render() {
 		return (
 			<div className="data-widget">
@@ -13,6 +13,6 @@ var DataWidget = React.createClass({
 			</div>
 		)
 	}
-});
+}
 
 export default DataWidget;

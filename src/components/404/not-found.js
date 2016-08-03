@@ -1,7 +1,7 @@
 import React from 'react';
 import './not-found.css';
 
-var NotFound = React.createClass({
+class NotFound extends React.Component {
 	render() {
 		return (
 			<div className="404 not-found-wrapper">
@@ -11,6 +11,6 @@ var NotFound = React.createClass({
 			</div>
 		)
 	}
-});
+}
 
 export default NotFound;

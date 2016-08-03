@@ -1,7 +1,7 @@
 /* Dependencies */
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Router, Route, Navigation, browserHistory} from 'react-router';
+import {Router, Route, browserHistory} from 'react-router';
 
 /* App Components */
 import App from './components/App/App';
