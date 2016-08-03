@@ -11,3 +11,6 @@ build
 npm-debug.log
 README.old
 wahoo-tickr.json
+
+# scrap folder
+experimental
