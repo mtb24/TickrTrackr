@@ -4,10 +4,13 @@ import './data-widget.css';
 /* Base class for data widgets */
 var DataWidget = React.createClass({
 	propTypes: {
-		featured: React.PropTypes.string,
+		featured: React.PropTypes.bool,
         title: React.PropTypes.string.isRequired,
         type: React.PropTypes.string.isRequired,
-        data: React.PropTypes.number.isRequired
+        data: React.PropTypes.oneOfType([
+			      React.PropTypes.string,
+			      React.PropTypes.number
+		])
 	},
     getInitialState() {
     	return { title: '', type: '', data:0 }
