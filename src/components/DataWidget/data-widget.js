@@ -2,7 +2,16 @@ import React from 'react';
 import './data-widget.css';
 
 /* Base class for data widgets */
-class DataWidget extends React.Component {
+var DataWidget = React.createClass({
+	propTypes: {
+		featured: React.PropTypes.string,
+        title: React.PropTypes.string.isRequired,
+        type: React.PropTypes.string.isRequired,
+        data: React.PropTypes.number.isRequired
+	},
+    getInitialState() {
+    	return { title: '', type: '', data:0 }
+    },
 	render() {
 		return (
 			<div className={this.props.featured? 'data-widget featured-window' :'data-widget'}>
@@ -13,6 +22,6 @@ class DataWidget extends React.Component {
 			</div>
 		)
 	}
-}
+});
 
 export default DataWidget;
