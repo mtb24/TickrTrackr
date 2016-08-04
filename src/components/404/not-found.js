@@ -1,7 +1,7 @@
 import React from 'react';
 import './not-found.css';
 
-var NotFound = React.createComponent({
+var NotFound = React.createClass({
 	render() {
 		return (
 			<div className="404 not-found-wrapper">
