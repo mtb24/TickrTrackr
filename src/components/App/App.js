@@ -4,7 +4,7 @@ import './App.css';
 
 import DataWidget from '../DataWidget/data-widget'
 
-class App extends React.Component {
+var App = React.createComponent({
   render() {
     return (
       <div className="App">
@@ -23,6 +23,6 @@ class App extends React.Component {
       </div>
     )
   }
-}
+});
 
 export default App;
